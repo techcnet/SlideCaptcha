@@ -4,7 +4,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/techcnet/SlideCaptcha)
 [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/techcnet)
 
-Captchas are tests that can be used to determine whether the user is a human to prevent bot and spam attacks. This specific captcha uses a puzzle that has to be solved by pulling the slider into the correct position. In contrast to other graphical captchas, this captcha also verifies the result on the server side. Another advantage is that no jQuery is required. Only PHP and JavaScript.
+A captcha is a test that can be used to determine whether the user is a human to prevent bot and spam attacks. This specific captcha uses a puzzle that has to be solved by pulling the slider into the correct position. In contrast to other graphical captchas, this captcha also verifies the result on the server side. Another advantage is that no jQuery is required. Only PHP and JavaScript.
 
 !["Screenshot"](https://tech-c.net/site/assets/files/1234/slide-captcha.jpg)
 
