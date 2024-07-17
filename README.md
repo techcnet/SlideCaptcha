@@ -19,8 +19,7 @@ Copy **SlideCaptcha.php**, **SlideCaptcha.js**, **SlideCaptcha.css** and the fol
 Follow one of the following examples.
 
 ## Example 1
-This example shows, how to use the captcha with a form-submit and the captcha on the submit-button.
-Insert a onclick-listener in the button-tag:
+This example shows, how to use the captcha with a form-submit and the captcha on the submit-button. Insert an onclick-listener in the button-tag:
 
 ````html
 <button onclick="javascript:captcha('testform');return false;">Submit</button>
@@ -59,8 +58,7 @@ The form is not submitted by clicking on the button. Instead, the captcha is dis
 ````
 
 ## Example 2
-This example shows, how to use the captcha with a form-submit and the captcha on a checkbox.
-Insert a onclick-listener in the checkbox-tag:
+This example shows, how to use the captcha with a form-submit and the captcha on a checkbox. Insert an onclick-listener in the checkbox-tag:
 
 ````html
 <input id="id_checkbox" type="checkbox" required="required" onclick="javascript:captcha('id_checkbox');return false;" />
@@ -85,8 +83,7 @@ Add the JavaScript:
 By using the required option inside the checkbox-tag, the form can only be submitted when the checkbox is checked. By clicking on the checkbox, the captcha is displayed. If the captcha has been solved correctly, the checkbox will be checked and the form can be submitted. Check again on the server side, as described in example 1, whether the captcha has really been solved.
 
 ## Example 3
-This example shows, how to use the captcha with a hyperlink.
-Insert a onclick-listener in the hyperlink-tag. Also move the **href** link into the JavaScript-function:
+This example shows, how to use the captcha with a hyperlink. Insert an onclick-listener in the hyperlink-tag. Also move the **href** link into the JavaScript-function:
 
 ````html
 <a href="" onclick="javascript:captcha('Example3.php');return false;">DOWNLOAD</a>
@@ -108,7 +105,7 @@ Add the JavaScript:
 </script>
 ````
 
-The captcha is displayed by clicking on the hyperlink. If the captcha has been solved correctly, the JavaScript will redirect to the specifed location. Check again on the server side, whether the captcha has really been solved and deliver the content:
+The captcha is displayed by clicking on the hyperlink. If the captcha has been solved correctly, the JavaScript will redirect to the specified location. Check again on the server side, whether the captcha has really been solved and deliver the content:
 
 ````php
 <?php
